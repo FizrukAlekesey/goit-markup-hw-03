@@ -1,0 +1,345 @@
+
+
+/*цвет основного текста #212121 */
+/*цвет вторичного текста #757575 */
+/*акцент #2196F3 */
+/*цвет основного фона #FFFFFF */
+/* вторичный цвет фона F5F4FA */
+
+:root {
+    --primary-text-color:#212121;
+    --tittle-text-color:#212121;
+    --accent-color:#2196F3;
+    --poragraf-color:#757575;
+}
+
+
+body {
+background-color:#FFFFFF;
+color: #212121;
+font-family: Roboto,sans-serif ;
+letter-spacing: 0.03em;
+font-size: 14px;
+line-height:1.7;
+text-decoration:none;
+margin: 0%;
+
+}
+/*logo*/
+.logo {
+    color: #2196F3;
+    font-family:Raleway,sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration:none;
+}
+.heder-logo{
+    color: #000000;
+}
+.foter-logo{
+    color: #FFFFFF;
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+/* main-nav */
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+/*site-nav*/
+.site-nav {
+    display: flex;
+    margin-left: 95px; ;
+    
+}
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+    
+.site-nav .link:hover,
+.site-nav .link:focus { 
+    color: #2196F3; 
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.site-nav .link.current {
+    color:#2196F3;
+}
+/*contact*/
+.contact {
+    display: flex;
+    margin-left: auto;
+}
+.contact .item:not(:last-child){
+    margin-right: 50px;
+}
+.contact {
+    color: #757575 ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact:hover,
+.contact:focus{
+    color: #2196F3;
+}
+/*fondament*/
+.fondament { 
+    margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #757575;
+    text-align: center;
+}
+.fondament-title{
+    margin-top: 0;
+    margin-bottom:30px;
+    color:#FFFFFF ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+/*section featur*/
+.feature {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.section-title {
+    color: #212121 ;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration:none;
+    letter-spacing: 0.03em;
+}
+.feature-title {
+    Font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.feature-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.feature .list .title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    
+}
+
+.feature .list .link{
+    color:#2196F3 ;
+}
+
+/* Занятие */
+.ocupation {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 94px;
+
+}
+.ocupation .list{
+    
+    width:370px;
+    height:294px;
+    
+}
+
+/*tima*/
+.team {
+    display: flex;
+    gap: 30px;
+    background-color: #F5F4FA;
+}
+.team .list .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.team .list, .title {
+    color:#212121;
+}
+
+.team-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text{
+    margin-bottom: 124px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.tima-foto{
+    margin-bottom: 30px;
+    width: 270px;
+    height: 260px;
+    border-radius: 0px;
+}
+
+/*button*/
+.button {
+    background-color: #188CE8;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-decoration:none;
+    font-family:inherit ; 
+    border: 1px solid transparent;
+}
+
+.button {
+    cursor: pointer;
+    font-family:inherit ;
+}
+
+.button-primary {
+    background-color: #188CE8;
+    color: #FFFFFF;
+    font-family:inherit ;
+    display: inline-block;
+    padding: 10px 32px; 
+    border-radius: 4px;
+    min-width: 216px;
+    height: 50px;
+    text-align: center;
+}
+.button-primary:focus,
+.button-primary:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/*paragraf*/
+p {
+    color: #757575;
+    text-decoration:none;
+}
+    /*cnopka*/
+.cry {
+    display: flex;
+    margin-left: 312px;
+}
+.cry .item:not(:last-child)
+{
+    margin-right: 8px;
+    
+}
+.cry .button {
+    background-color: #F5F4FA;
+    color: #000000;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.cry .list, .links:hover,
+.cry .list, .links:focus { 
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 4px;
+} 
+.button.secondori.links{
+    padding: 6px 22px; 
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+}
+/*Portfolio*/
+.portfolio-foto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+.portfolio-foto:nth-child(3n){
+    margin-right:0;
+}
+.portfolio .list .title {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration:none;
+}
+a {
+    text-decoration: none;
+}
+
+/*foter*/
+.footer .item{
+    margin-bottom: 9px;
+}
+.footer-studio{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer-contact{
+    color:rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.footer-adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71 ;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;    
+}
+
+.container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section.no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+}
