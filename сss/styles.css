@@ -23,7 +23,12 @@ font-size: 14px;
 line-height:1.7;
 text-decoration:none;
 margin: 0%;
+}
 
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 /*logo*/
 .logo {
@@ -101,7 +106,7 @@ margin: 0%;
 }
 /*fondament*/
 .fondament { 
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #757575;
@@ -121,7 +126,10 @@ margin: 0%;
 .feature {
     display: flex;
     gap: 30px;
-    margin-bottom: 94px;
+}
+.feature-list .item{
+    width:270px;
+    height: 74px;
 }
 
 .section-title {
@@ -163,8 +171,6 @@ margin: 0%;
 .ocupation {
     display: flex;
     gap: 30px;
-    margin-bottom: 94px;
-
 }
 .ocupation .list{
     
@@ -187,6 +193,10 @@ margin: 0%;
 .team .list, .title {
     color:#212121;
 }
+.team .item{
+    background-color: #FFFFFF;
+    width: calc((100% - 90px) / 4);
+}
 
 .team-title{
     margin-top: 0;
@@ -198,7 +208,6 @@ margin: 0%;
     letter-spacing: 0.03em;
 }
 .team-text{
-    margin-bottom: 124px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -207,10 +216,16 @@ margin: 0%;
 }
 
 .tima-foto{
-    margin-bottom: 30px;
+    
     width: 270px;
     height: 260px;
     border-radius: 0px;
+}
+.team-heading{
+    padding:20px 24px;
+    border-bottom:1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
 }
 
 /*button*/
@@ -288,13 +303,21 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 94px;
 }
-.portfolio-foto:nth-child(3n){
-    margin-right:0;
+.portfolio-foto .item{
+    width: calc((100% - 60px) / 3);
 }
+
+/* card */
+.card-heading{
+    padding:20px 24px;
+    border-bottom:1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+
 .portfolio .list .title {
-    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -305,15 +328,18 @@ a {
 }
 
 /*foter*/
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2F303A;
+}
 .footer .item{
     margin-bottom: 9px;
 }
-.footer-studio{
+.footer-studio {
     margin-bottom: 20px;
 }
-.footer{
-    background-color: #2F303A;
-}
+
 .footer-contact{
     color:rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -332,7 +358,7 @@ a {
 }
 
 .container{
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -342,4 +368,9 @@ a {
 .section.no-padding{
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
