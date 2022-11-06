@@ -24,7 +24,7 @@ a {
 body {
 background-color:#FFFFFF;
 color: #212121;
-font-family: Roboto,sans-serif ;
+font-family: Roboto ,sans-serif ;
 letter-spacing: 0.03em;
 font-size: 14px;
 line-height:1.7;
@@ -243,7 +243,7 @@ img{
     border-radius: 0px;
 }
 .team-heading{
-    padding:20px 24px;
+    padding:30px 24px;
     border-bottom:1px solid #eee;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
@@ -296,11 +296,6 @@ p {
     justify-content: center;
     gap: 8px;
     padding-bottom: 50px;
-    
-}
-.cry .item:not(:last-child)
-{
-    margin-right: 8px;
     
 }
 .cry .button {
@@ -360,8 +355,8 @@ a {
 
 /*foter*/
 .footer{
-    padding-top: 20px;
-    padding-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 60px;
     background-color: #2F303A;
 }
 .footer .item{
@@ -399,7 +394,7 @@ a {
 }
 
 .section {
-    padding-top: 94px;
+    
     padding-bottom: 94px;
 }
 .visually-hidden {
