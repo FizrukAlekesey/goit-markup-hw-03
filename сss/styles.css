@@ -293,7 +293,7 @@ p {
     /*cnopka*/
 .cry {
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
     gap: 8px;
     padding-bottom: 50px;
     
