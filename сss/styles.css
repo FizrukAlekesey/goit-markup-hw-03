@@ -359,16 +359,19 @@ a {
 /*foter*/
 .footer {
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     background-color: #2F303A;
 }
 .footer-logo {
-    display:block;
-    margin-bottom: 20px;
     color: #FFFFFF;
+}
+    .footer .logo{
+    display: block;
+    margin-bottom: 20px;
 }
 
 .footer-list .item{
+    list-style:none;
     margin-bottom: 9px;
 }
 .footer-contact{
