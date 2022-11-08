@@ -26,14 +26,15 @@ ul {
 }
 
 body {
-background-color:#FFFFFF;
-color: #212121;
-font-family: Roboto ,sans-serif ;
-letter-spacing: 0.03em;
-font-size: 14px;
-line-height:1.7;
-text-decoration:none;
-margin: 0;
+    background-color:#FFFFFF;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height:1.7;
+    text-decoration:none;
+    margin: 0;
 }
 
 img{
@@ -115,12 +116,16 @@ img{
 }
 /*fondament*/
 .foundation { 
+    font-family: 'roboto';
+    font-style: normal;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #757575;
     text-align: center;
 }
 .foundation-title{
+    font-family: 'roboto';
+    font-style: normal;
     padding-left: 252px;
     padding-right: 252px;
     margin-top: 0;
