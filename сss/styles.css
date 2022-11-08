@@ -13,12 +13,16 @@
     --poragraf-color:#757575;
 }
 
-h1,
-h2,
-h3,
+h1
+h2
+h3
 a {
     margin:0;
     padding:0;
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -353,21 +357,18 @@ a {
 }
 
 /*foter*/
-.footer{
-    display:block;
+.footer {
     padding-top: 60px;
     padding-bottom: 40px;
     background-color: #2F303A;
 }
-.footer-logo{
+.footer-logo {
+    display:block;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
-.footer .logo {
-    width: 145px;
-    height: 31px;
-}
-.footer .item{
+
+.footer-list .item{
     margin-bottom: 9px;
 }
 .footer-contact{
