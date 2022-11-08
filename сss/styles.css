@@ -48,9 +48,7 @@ img{
 .heder-logo{
     color: #000000;
 }
-.foter-logo{
-    color: #FFFFFF;
-}
+
 .list {
     padding: 0;
     margin: 0;
@@ -113,7 +111,6 @@ img{
 }
 /*fondament*/
 .foundation { 
-    padding-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #757575;
@@ -192,9 +189,9 @@ img{
 .ocupation {
     display: flex;
     gap: 30px;
+    
 }
 .ocupation .list{
-    
     width:370px;
     height:294px;
     
@@ -205,6 +202,7 @@ img{
     display: flex;
     gap: 30px;
     background-color: #F5F4FA;
+    padding-bottom: 94px;
 }
 .team .list .title{
     font-weight: 700;
@@ -324,6 +322,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 94px;
 }
 .portfolio-foto .item{
     width: calc((100% - 60px) / 3);
@@ -355,14 +354,22 @@ a {
 
 /*foter*/
 .footer{
-    margin-top: 20px;
-    margin-bottom: 60px;
+    display:block;
+    padding-top: 60px;
+    padding-bottom: 40px;
     background-color: #2F303A;
+}
+.footer-logo{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footer .logo {
+    width: 145px;
+    height: 31px;
 }
 .footer .item{
     margin-bottom: 9px;
 }
-
 .footer-contact{
     color:rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -394,7 +401,7 @@ a {
 }
 
 .section {
-    
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 .visually-hidden {
