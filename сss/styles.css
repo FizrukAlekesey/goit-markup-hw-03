@@ -40,7 +40,7 @@ body {
     margin: 0;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -281,7 +281,6 @@ img{
     cursor: pointer;
     font-family:inherit ;
 }
-
 .button-primary {
     background-color: #188CE8;
     color: #FFFFFF;
