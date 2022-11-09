@@ -13,9 +13,11 @@
     --poragraf-color:#757575;
 }
 
-h1
-h2
-h3
+h1,
+h2,
+h3,
+h4,
+h5,
 a {
     margin:0;
     padding:0;
@@ -29,6 +31,7 @@ body {
     background-color:#FFFFFF;
     color: #212121;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
     font-size: 14px;
@@ -44,6 +47,7 @@ img{
 }
 /*logo*/
 .logo {
+    font-family: 'Raleway';
     color: #2196F3;
     font-family:Raleway,sans-serif;
     font-size: 26px;
@@ -51,6 +55,7 @@ img{
     text-decoration:none;
 }
 .heder-logo{
+    font-family: 'Raleway';
     color: #000000;
 }
 
@@ -66,6 +71,7 @@ img{
 }
 /*site-nav*/
 .site-nav {
+    font-family: 'roboto';
     display: flex;
     margin-left: 95px; ;
     
@@ -74,6 +80,7 @@ img{
     margin-right: 50px;
 }
 .site-nav .link {
+    
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -97,6 +104,7 @@ img{
 }
 /*contact*/
 .contact {
+    font-family: 'roboto';
     display: flex;
     margin-left: auto;
 }
@@ -116,6 +124,7 @@ img{
 }
 /*fondament*/
 .foundation { 
+    
     font-family: 'roboto';
     font-style: normal;
     padding-top: 200px;
@@ -124,16 +133,15 @@ img{
     text-align: center;
 }
 .foundation-title{
-    font-family: 'roboto';
-    font-style: normal;
-    padding-left: 252px;
-    padding-right: 252px;
+    display: block;
+    width: 696px;
+    margin: 0 auto;
     margin-top: 0;
     margin-bottom:30px;
 }
 .foundation-title{
+    color:#FFFFFF ; 
     
-    color:#FFFFFF ;
     font-family: 'roboto';
     font-style: normal;
     font-weight: 900;
@@ -159,6 +167,7 @@ img{
 }
 
 .section-title {
+    padding-top: 0;
     color: #212121 ;
     margin-bottom: 50px;
 
@@ -276,13 +285,25 @@ img{
 .button-primary {
     background-color: #188CE8;
     color: #FFFFFF;
+    display: flex;
+    border: 1px solid transparent;
     font-family:inherit ;
     display: inline-block;
     padding: 10px 32px; 
     border-radius: 4px;
     min-width: 216px;
-    height: 50px;
     text-align: center;
+}
+.button-primary{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .button-primary:focus,
 .button-primary:hover {
@@ -311,6 +332,7 @@ p {
     padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.62;
 }
 
 
@@ -318,13 +340,14 @@ p {
 .cry .list, .links:focus { 
     background-color: #2196F3;
     color: #FFFFFF;
-    border-radius: 4px;
+    
 } 
 .button.secondori.links{
     padding: 6px 22px; 
     display: inline-block;
     border-radius: 8px;
     text-align: center;
+    border-radius: 4px;
 }
 /*Portfolio*/
 .portfolio-foto {
@@ -376,6 +399,8 @@ a {
 }
 
 .footer-list .item{
+    font-family: 'Roboto';
+    font-style: normal;
     list-style:none;
     margin-bottom: 9px;
 }
